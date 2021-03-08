@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -128,6 +128,8 @@
 		8467E30525F62C5900B45E68 /* fiin_swift */ = {
 			isa = PBXGroup;
 			children = (
+				8467E36C25F6327100B45E68 /* Connect */,
+				8467E36B25F6326300B45E68 /* Assest */,
 				8467E30625F62C5900B45E68 /* AppDelegate.swift */,
 				8467E30825F62C5900B45E68 /* SceneDelegate.swift */,
 				8467E30A25F62C5900B45E68 /* ViewController.swift */,
@@ -158,6 +160,20 @@
 			path = fiin_swiftUITests;
 			sourceTree = "<group>";
 		};
+		8467E36B25F6326300B45E68 /* Assest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assest;
+			sourceTree = "<group>";
+		};
+		8467E36C25F6327100B45E68 /* Connect */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Connect;
+			sourceTree = "<group>";
+		};
 		B95B13DB430BFCECCDA59888 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,7 +184,6 @@
 				C19382F0E96112B9B9804A75 /* Pods-fiin_swiftTests.debug.xcconfig */,
 				97F5DC4F1011ECC86535E70B /* Pods-fiin_swiftTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
