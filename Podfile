@@ -3,7 +3,7 @@
 
 target 'fiin_swift' do
   # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
+use_frameworks! :linkage => :static
 
   # Pods for fiin_swift
 
@@ -18,7 +18,9 @@ target 'fiin_swift' do
 
 pod 'Alamofire', '~> 5.2'
 pod 'CardSlider'
-pod 'SDWebImage', :modular_headers => true
+
 pod 'ObjectMapper', '~> 3.1'
+pod 'IHKeyboardAvoiding'
+pod 'SDWebImage', '~> 5.0'
 
 end

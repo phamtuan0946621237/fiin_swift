@@ -1,5 +1,6 @@
 ${PODS_ROOT}/Target Support Files/Pods-fiin_swift-fiin_swiftUITests/Pods-fiin_swift-fiin_swiftUITests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/CardSlider/CardSlider.framework
+${BUILT_PRODUCTS_DIR}/IHKeyboardAvoiding/IHKeyboardAvoiding.framework
 ${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework
 ${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
