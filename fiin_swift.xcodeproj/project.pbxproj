@@ -62,6 +62,33 @@
 		84273D2726048FCC00CE50E3 /* InfoUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84273D2626048FCC00CE50E3 /* InfoUser.swift */; };
 		84273D2C26049D7400CE50E3 /* InfoLimitServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84273D2B26049D7400CE50E3 /* InfoLimitServices.swift */; };
 		84273D3126049DA600CE50E3 /* InfoLimitResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84273D3026049DA600CE50E3 /* InfoLimitResponse.swift */; };
+		84273D3626099D2A00CE50E3 /* notice_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84273D3526099D2800CE50E3 /* notice_icon.png */; };
+		84273D3C2609A3DF00CE50E3 /* BorrowCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84273D3B2609A3DF00CE50E3 /* BorrowCreateViewController.swift */; };
+		84273D442609A5EE00CE50E3 /* check_success.png in Resources */ = {isa = PBXBuildFile; fileRef = 84273D432609A5ED00CE50E3 /* check_success.png */; };
+		84273D4A2609A6CB00CE50E3 /* TypeBorrowCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84273D492609A6CB00CE50E3 /* TypeBorrowCollectionViewCell.swift */; };
+		84273D5A2609CF2500CE50E3 /* BorrowOptionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84273D592609CF2500CE50E3 /* BorrowOptionResponse.swift */; };
+		84273D5F2609E45A00CE50E3 /* Uncheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 84273D5E2609E45A00CE50E3 /* Uncheck.png */; };
+		84273D642609EFFD00CE50E3 /* TimeBorrowCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84273D632609EFFD00CE50E3 /* TimeBorrowCollectionViewCell.swift */; };
+		84273D69260A223E00CE50E3 /* promotion_borrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 84273D68260A223D00CE50E3 /* promotion_borrow.png */; };
+		84273D6E260A227500CE50E3 /* notice_promotion.png in Resources */ = {isa = PBXBuildFile; fileRef = 84273D6D260A227400CE50E3 /* notice_promotion.png */; };
+		84273D97260C2D2600CE50E3 /* BorrowingContractConfirmResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84273D96260C2D2600CE50E3 /* BorrowingContractConfirmResponse.swift */; };
+		84273D9C260DC57A00CE50E3 /* BorowConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84273D9B260DC57A00CE50E3 /* BorowConfirmViewController.swift */; };
+		84273DA1260DD9AF00CE50E3 /* question_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84273DA0260DD9AE00CE50E3 /* question_icon.png */; };
+		84273DA8260DE58B00CE50E3 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84273DA6260DE58B00CE50E3 /* LoadingViewController.swift */; };
+		84273DB3260F1CD500CE50E3 /* ListBorrowProcessItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84273DB1260F1CD500CE50E3 /* ListBorrowProcessItemTableViewCell.swift */; };
+		84273DB4260F1CD500CE50E3 /* ListBorrowProcessItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84273DB2260F1CD500CE50E3 /* ListBorrowProcessItemTableViewCell.xib */; };
+		84273DBC2611885A00CE50E3 /* ic_info_borrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 84273DBB2611885A00CE50E3 /* ic_info_borrow.png */; };
+		84273DC126118D5500CE50E3 /* BorrowTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84273DC026118D5500CE50E3 /* BorrowTutorialViewController.swift */; };
+		84273DC62611BD9900CE50E3 /* BorrowConfirmResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84273DC52611BD9800CE50E3 /* BorrowConfirmResponse.swift */; };
+		84273DCB2611C8B200CE50E3 /* BorrowDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84273DCA2611C8B200CE50E3 /* BorrowDetailViewController.swift */; };
+		84273DD02611CB1000CE50E3 /* BorrowDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84273DCF2611CB1000CE50E3 /* BorrowDetailResponse.swift */; };
+		84273DD82612C62D00CE50E3 /* loading1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84273DD72612C62D00CE50E3 /* loading1.gif */; };
+		84273DE9261306D800CE50E3 /* WithdrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84273DE8261306D800CE50E3 /* WithdrawViewController.swift */; };
+		84273DF126130A3000CE50E3 /* calendar_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84273DF026130A2D00CE50E3 /* calendar_icon.png */; };
+		84273DFB26130B8A00CE50E3 /* ListWithdrawItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84273DF926130B8A00CE50E3 /* ListWithdrawItemTableViewCell.swift */; };
+		84273DFC26130B8A00CE50E3 /* ListWithdrawItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84273DFA26130B8A00CE50E3 /* ListWithdrawItemTableViewCell.xib */; };
+		84273E0526140BB900CE50E3 /* ListWithdraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84273E0426140BB900CE50E3 /* ListWithdraw.swift */; };
+		84273E0D26140C4600CE50E3 /* WithdrawResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84273E0C26140C4600CE50E3 /* WithdrawResponse.swift */; };
 		8467E30725F62C5900B45E68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467E30625F62C5900B45E68 /* AppDelegate.swift */; };
 		8467E30925F62C5900B45E68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467E30825F62C5900B45E68 /* SceneDelegate.swift */; };
 		8467E30B25F62C5900B45E68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467E30A25F62C5900B45E68 /* ViewController.swift */; };
@@ -85,6 +112,14 @@
 		8467E40625F775BF00B45E68 /* Connect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467E40525F775BF00B45E68 /* Connect.swift */; };
 		8467E40F25F7842D00B45E68 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467E40E25F7842D00B45E68 /* LoginResponse.swift */; };
 		8467E41625F78AF800B45E68 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467E41525F78AF800B45E68 /* HomeViewController.swift */; };
+		84CD8E3B262482B400E31D26 /* WithdrawCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD8E3A262482B400E31D26 /* WithdrawCreateViewController.swift */; };
+		84CD8F442627F96900E31D26 /* WithdrawInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD8F432627F96900E31D26 /* WithdrawInfo.swift */; };
+		84CD8F4926282BEC00E31D26 /* WithdrawRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD8F4826282BEC00E31D26 /* WithdrawRequest.swift */; };
+		84CD8F4F2628396100E31D26 /* ListScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD8F4E2628396100E31D26 /* ListScheduleViewController.swift */; };
+		84CD8F5926283A7500E31D26 /* ListScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD8F5726283A7500E31D26 /* ListScheduleTableViewCell.swift */; };
+		84CD8F5A26283A7500E31D26 /* ListScheduleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84CD8F5826283A7500E31D26 /* ListScheduleTableViewCell.xib */; };
+		84CD8F63262842A200E31D26 /* ScheduleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD8F62262842A200E31D26 /* ScheduleList.swift */; };
+		84CD8F6C2628448B00E31D26 /* ScheduleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD8F6B2628448B00E31D26 /* ScheduleResponse.swift */; };
 		9E01DD1F2B9E63A412ED2CE3 /* Pods_fiin_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275884D4ACD0BAC4A9F28E84 /* Pods_fiin_swift.framework */; };
 /* End PBXBuildFile section */
 
@@ -164,6 +199,33 @@
 		84273D2626048FCC00CE50E3 /* InfoUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoUser.swift; sourceTree = "<group>"; };
 		84273D2B26049D7400CE50E3 /* InfoLimitServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoLimitServices.swift; sourceTree = "<group>"; };
 		84273D3026049DA600CE50E3 /* InfoLimitResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoLimitResponse.swift; sourceTree = "<group>"; };
+		84273D3526099D2800CE50E3 /* notice_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notice_icon.png; sourceTree = "<group>"; };
+		84273D3B2609A3DF00CE50E3 /* BorrowCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorrowCreateViewController.swift; sourceTree = "<group>"; };
+		84273D432609A5ED00CE50E3 /* check_success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_success.png; sourceTree = "<group>"; };
+		84273D492609A6CB00CE50E3 /* TypeBorrowCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeBorrowCollectionViewCell.swift; sourceTree = "<group>"; };
+		84273D592609CF2500CE50E3 /* BorrowOptionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorrowOptionResponse.swift; sourceTree = "<group>"; };
+		84273D5E2609E45A00CE50E3 /* Uncheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Uncheck.png; sourceTree = "<group>"; };
+		84273D632609EFFD00CE50E3 /* TimeBorrowCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBorrowCollectionViewCell.swift; sourceTree = "<group>"; };
+		84273D68260A223D00CE50E3 /* promotion_borrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = promotion_borrow.png; sourceTree = "<group>"; };
+		84273D6D260A227400CE50E3 /* notice_promotion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notice_promotion.png; sourceTree = "<group>"; };
+		84273D96260C2D2600CE50E3 /* BorrowingContractConfirmResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorrowingContractConfirmResponse.swift; sourceTree = "<group>"; };
+		84273D9B260DC57A00CE50E3 /* BorowConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorowConfirmViewController.swift; sourceTree = "<group>"; };
+		84273DA0260DD9AE00CE50E3 /* question_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = question_icon.png; sourceTree = "<group>"; };
+		84273DA6260DE58B00CE50E3 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		84273DB1260F1CD500CE50E3 /* ListBorrowProcessItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBorrowProcessItemTableViewCell.swift; sourceTree = "<group>"; };
+		84273DB2260F1CD500CE50E3 /* ListBorrowProcessItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListBorrowProcessItemTableViewCell.xib; sourceTree = "<group>"; };
+		84273DBB2611885A00CE50E3 /* ic_info_borrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_info_borrow.png; sourceTree = "<group>"; };
+		84273DC026118D5500CE50E3 /* BorrowTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorrowTutorialViewController.swift; sourceTree = "<group>"; };
+		84273DC52611BD9800CE50E3 /* BorrowConfirmResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorrowConfirmResponse.swift; sourceTree = "<group>"; };
+		84273DCA2611C8B200CE50E3 /* BorrowDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorrowDetailViewController.swift; sourceTree = "<group>"; };
+		84273DCF2611CB1000CE50E3 /* BorrowDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorrowDetailResponse.swift; sourceTree = "<group>"; };
+		84273DD72612C62D00CE50E3 /* loading1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading1.gif; sourceTree = "<group>"; };
+		84273DE8261306D800CE50E3 /* WithdrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawViewController.swift; sourceTree = "<group>"; };
+		84273DF026130A2D00CE50E3 /* calendar_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar_icon.png; sourceTree = "<group>"; };
+		84273DF926130B8A00CE50E3 /* ListWithdrawItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWithdrawItemTableViewCell.swift; sourceTree = "<group>"; };
+		84273DFA26130B8A00CE50E3 /* ListWithdrawItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListWithdrawItemTableViewCell.xib; sourceTree = "<group>"; };
+		84273E0426140BB900CE50E3 /* ListWithdraw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWithdraw.swift; sourceTree = "<group>"; };
+		84273E0C26140C4600CE50E3 /* WithdrawResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawResponse.swift; sourceTree = "<group>"; };
 		8467E30325F62C5900B45E68 /* fiin_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fiin_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8467E30625F62C5900B45E68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8467E30825F62C5900B45E68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -193,6 +255,14 @@
 		8467E40525F775BF00B45E68 /* Connect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connect.swift; sourceTree = "<group>"; };
 		8467E40E25F7842D00B45E68 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		8467E41525F78AF800B45E68 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		84CD8E3A262482B400E31D26 /* WithdrawCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawCreateViewController.swift; sourceTree = "<group>"; };
+		84CD8F432627F96900E31D26 /* WithdrawInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawInfo.swift; sourceTree = "<group>"; };
+		84CD8F4826282BEC00E31D26 /* WithdrawRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawRequest.swift; sourceTree = "<group>"; };
+		84CD8F4E2628396100E31D26 /* ListScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListScheduleViewController.swift; sourceTree = "<group>"; };
+		84CD8F5726283A7500E31D26 /* ListScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		84CD8F5826283A7500E31D26 /* ListScheduleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListScheduleTableViewCell.xib; sourceTree = "<group>"; };
+		84CD8F62262842A200E31D26 /* ScheduleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleList.swift; sourceTree = "<group>"; };
+		84CD8F6B2628448B00E31D26 /* ScheduleResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleResponse.swift; sourceTree = "<group>"; };
 		8D1AB5B3CB127F497A2A3492 /* Pods-fiin_swift-fiin_swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fiin_swift-fiin_swiftUITests.release.xcconfig"; path = "Target Support Files/Pods-fiin_swift-fiin_swiftUITests/Pods-fiin_swift-fiin_swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		97F5DC4F1011ECC86535E70B /* Pods-fiin_swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fiin_swiftTests.release.xcconfig"; path = "Target Support Files/Pods-fiin_swiftTests/Pods-fiin_swiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		C19382F0E96112B9B9804A75 /* Pods-fiin_swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fiin_swiftTests.debug.xcconfig"; path = "Target Support Files/Pods-fiin_swiftTests/Pods-fiin_swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -367,6 +437,8 @@
 				84273C952604827C00CE50E3 /* BorrowServices.swift */,
 				84273D2626048FCC00CE50E3 /* InfoUser.swift */,
 				84273D2B26049D7400CE50E3 /* InfoLimitServices.swift */,
+				84273E0C26140C4600CE50E3 /* WithdrawResponse.swift */,
+				84CD8F6B2628448B00E31D26 /* ScheduleResponse.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -374,7 +446,12 @@
 		840010F52602098E00866863 /* Borrow */ = {
 			isa = PBXGroup;
 			children = (
+				84273D482609A6AE00CE50E3 /* component */,
 				840010F6260209B700866863 /* BorrowViewController.swift */,
+				84273D3B2609A3DF00CE50E3 /* BorrowCreateViewController.swift */,
+				84273D9B260DC57A00CE50E3 /* BorowConfirmViewController.swift */,
+				84273DC026118D5500CE50E3 /* BorrowTutorialViewController.swift */,
+				84273DCA2611C8B200CE50E3 /* BorrowDetailViewController.swift */,
 			);
 			path = Borrow;
 			sourceTree = "<group>";
@@ -382,6 +459,11 @@
 		840010FE260215C300866863 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				84CD8F5626283A5800E31D26 /* ListScheduleItem */,
+				84273DF826130B6C00CE50E3 /* ListWithdrawItem */,
+				84273DB0260F1CA600CE50E3 /* ListBorrowProcessItem */,
+				84273DA5260DE4F300CE50E3 /* LoadingView */,
+				84273D77260AEA2A00CE50E3 /* PickerView */,
 				840010FF260215CF00866863 /* ListBorrowItem */,
 			);
 			path = Component;
@@ -400,8 +482,73 @@
 			isa = PBXGroup;
 			children = (
 				84273C8D260461C800CE50E3 /* ListBorrowResponse.swift */,
+				84273D592609CF2500CE50E3 /* BorrowOptionResponse.swift */,
+				84273D96260C2D2600CE50E3 /* BorrowingContractConfirmResponse.swift */,
+				84273DC52611BD9800CE50E3 /* BorrowConfirmResponse.swift */,
+				84273DCF2611CB1000CE50E3 /* BorrowDetailResponse.swift */,
 			);
 			path = Borrow;
+			sourceTree = "<group>";
+		};
+		84273D482609A6AE00CE50E3 /* component */ = {
+			isa = PBXGroup;
+			children = (
+				84273D492609A6CB00CE50E3 /* TypeBorrowCollectionViewCell.swift */,
+				84273D632609EFFD00CE50E3 /* TimeBorrowCollectionViewCell.swift */,
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
+		84273D77260AEA2A00CE50E3 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		84273DA5260DE4F300CE50E3 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				84273DA6260DE58B00CE50E3 /* LoadingViewController.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		84273DB0260F1CA600CE50E3 /* ListBorrowProcessItem */ = {
+			isa = PBXGroup;
+			children = (
+				84273DB1260F1CD500CE50E3 /* ListBorrowProcessItemTableViewCell.swift */,
+				84273DB2260F1CD500CE50E3 /* ListBorrowProcessItemTableViewCell.xib */,
+			);
+			path = ListBorrowProcessItem;
+			sourceTree = "<group>";
+		};
+		84273DE7261306C000CE50E3 /* Withdraw */ = {
+			isa = PBXGroup;
+			children = (
+				84273DE8261306D800CE50E3 /* WithdrawViewController.swift */,
+				84CD8E3A262482B400E31D26 /* WithdrawCreateViewController.swift */,
+			);
+			path = Withdraw;
+			sourceTree = "<group>";
+		};
+		84273DF826130B6C00CE50E3 /* ListWithdrawItem */ = {
+			isa = PBXGroup;
+			children = (
+				84273DF926130B8A00CE50E3 /* ListWithdrawItemTableViewCell.swift */,
+				84273DFA26130B8A00CE50E3 /* ListWithdrawItemTableViewCell.xib */,
+			);
+			path = ListWithdrawItem;
+			sourceTree = "<group>";
+		};
+		84273E0326140BA100CE50E3 /* Withdraw */ = {
+			isa = PBXGroup;
+			children = (
+				84273E0426140BB900CE50E3 /* ListWithdraw.swift */,
+				84CD8F432627F96900E31D26 /* WithdrawInfo.swift */,
+				84CD8F4826282BEC00E31D26 /* WithdrawRequest.swift */,
+			);
+			path = Withdraw;
 			sourceTree = "<group>";
 		};
 		8467E2FA25F62C5800B45E68 = {
@@ -471,6 +618,15 @@
 		8467E36B25F6326300B45E68 /* Assest */ = {
 			isa = PBXGroup;
 			children = (
+				84273DF026130A2D00CE50E3 /* calendar_icon.png */,
+				84273DD72612C62D00CE50E3 /* loading1.gif */,
+				84273DBB2611885A00CE50E3 /* ic_info_borrow.png */,
+				84273DA0260DD9AE00CE50E3 /* question_icon.png */,
+				84273D6D260A227400CE50E3 /* notice_promotion.png */,
+				84273D68260A223D00CE50E3 /* promotion_borrow.png */,
+				84273D5E2609E45A00CE50E3 /* Uncheck.png */,
+				84273D432609A5ED00CE50E3 /* check_success.png */,
+				84273D3526099D2800CE50E3 /* notice_icon.png */,
 				84000CCC25F8B05B00866863 /* ib_support.png */,
 				84000CC725F8B03800866863 /* phone_support.png */,
 				84000CC225F8B01200866863 /* gmail_support.png */,
@@ -516,6 +672,8 @@
 		8467E37A25F639F900B45E68 /* Container */ = {
 			isa = PBXGroup;
 			children = (
+				84CD8F4D2628394E00E31D26 /* Schedule */,
+				84273DE7261306C000CE50E3 /* Withdraw */,
 				840010F52602098E00866863 /* Borrow */,
 				84000FAA25FF722A00866863 /* Balance */,
 				84000F6925FDC51700866863 /* Deposit */,
@@ -563,6 +721,8 @@
 		8467E40D25F7840D00B45E68 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				84CD8F612628428A00E31D26 /* Schedule */,
+				84273E0326140BA100CE50E3 /* Withdraw */,
 				84273C8C260461B600CE50E3 /* Borrow */,
 				8467E40E25F7842D00B45E68 /* LoginResponse.swift */,
 				84000F2625FA1A8800866863 /* ListSupportResponse.swift */,
@@ -581,6 +741,31 @@
 				8467E41525F78AF800B45E68 /* HomeViewController.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		84CD8F4D2628394E00E31D26 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				84CD8F4E2628396100E31D26 /* ListScheduleViewController.swift */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		84CD8F5626283A5800E31D26 /* ListScheduleItem */ = {
+			isa = PBXGroup;
+			children = (
+				84CD8F5726283A7500E31D26 /* ListScheduleTableViewCell.swift */,
+				84CD8F5826283A7500E31D26 /* ListScheduleTableViewCell.xib */,
+			);
+			path = ListScheduleItem;
+			sourceTree = "<group>";
+		};
+		84CD8F612628428A00E31D26 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				84CD8F62262842A200E31D26 /* ScheduleList.swift */,
+			);
+			path = Schedule;
 			sourceTree = "<group>";
 		};
 		B95B13DB430BFCECCDA59888 /* Pods */ = {
@@ -704,11 +889,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84273D69260A223E00CE50E3 /* promotion_borrow.png in Resources */,
+				84273DD82612C62D00CE50E3 /* loading1.gif in Resources */,
 				84000C2325F7BF0B00866863 /* Notification@3x.png in Resources */,
 				84000C7D25F86BEA00866863 /* banner3.jpg in Resources */,
+				84273DB4260F1CD500CE50E3 /* ListBorrowProcessItemTableViewCell.xib in Resources */,
 				8467E3A425F7187900B45E68 /* image@3x.png in Resources */,
 				84000CB925F8A8E100866863 /* ModalSupportTicket.xib in Resources */,
 				8467E31625F62C5E00B45E68 /* LaunchScreen.storyboard in Resources */,
+				84273DF126130A3000CE50E3 /* calendar_icon.png in Resources */,
 				8467E31325F62C5E00B45E68 /* Assets.xcassets in Resources */,
 				8467E40125F7690F00B45E68 /* eyeOutActive.png in Resources */,
 				8467E38D25F63B4200B45E68 /* Lock@3x.png in Resources */,
@@ -723,16 +912,22 @@
 				84000CA525F8748F00866863 /* add-friend@3x.png in Resources */,
 				8467E3E525F736FA00B45E68 /* arrowBackLeft@3x.png in Resources */,
 				84000C9125F8743000866863 /* Mobile Shoping@3x.png in Resources */,
+				84273DA1260DD9AF00CE50E3 /* question_icon.png in Resources */,
 				84000C7825F86B3800866863 /* banner2.png in Resources */,
 				84000C8C25F8741600866863 /* Borrow %@3x.png in Resources */,
+				84CD8F5A26283A7500E31D26 /* ListScheduleTableViewCell.xib in Resources */,
 				84000CDB25F9306E00866863 /* ListSupportTableViewCell.xib in Resources */,
 				84000CA025F8747900866863 /* Reward2@3x.png in Resources */,
 				8467E37125F6371D00B45E68 /* logo@3x.png in Resources */,
 				8467E38825F63B3700B45E68 /* Phone@3x.png in Resources */,
+				84273D6E260A227500CE50E3 /* notice_promotion.png in Resources */,
+				84273D5F2609E45A00CE50E3 /* Uncheck.png in Resources */,
 				8467E39225F710A300B45E68 /* EyeInactive@3x.png in Resources */,
+				84273D442609A5EE00CE50E3 /* check_success.png in Resources */,
 				8467E39725F712CE00B45E68 /* Primary@3x.png in Resources */,
 				84000C3225F7E40000866863 /* borrrow.png in Resources */,
 				84000C3725F7E7D000866863 /* lend.png in Resources */,
+				84273D3626099D2A00CE50E3 /* notice_icon.png in Resources */,
 				84000C9B25F8745F00866863 /* Payment TD@3x.png in Resources */,
 				84273D152604881B00CE50E3 /* BorrowListTableViewCell.xib in Resources */,
 				84000C3C25F7E7FE00866863 /* deposit.png in Resources */,
@@ -740,6 +935,8 @@
 				84000C4125F7E82D00866863 /* withdraw.png in Resources */,
 				84000C9625F8744800866863 /* Mobile Card@3x.png in Resources */,
 				84000C8225F873B700866863 /* Borrow TD@3x.png in Resources */,
+				84273DBC2611885A00CE50E3 /* ic_info_borrow.png in Resources */,
+				84273DFC26130B8A00CE50E3 /* ListWithdrawItemTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -867,43 +1064,66 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84273D5A2609CF2500CE50E3 /* BorrowOptionResponse.swift in Sources */,
 				84273D2C26049D7400CE50E3 /* InfoLimitServices.swift in Sources */,
 				84000C4A25F8637900866863 /* BannerHomeCollectionViewCell.swift in Sources */,
 				84273D2226048E9B00CE50E3 /* InfoUserResponse.swift in Sources */,
 				84000CB425F8A89400866863 /* ModalSupportTicket.swift in Sources */,
 				840010F7260209B700866863 /* BorrowViewController.swift in Sources */,
+				84CD8F4F2628396100E31D26 /* ListScheduleViewController.swift in Sources */,
 				8467E3F625F7677300B45E68 /* CreateAccountViewController.swift in Sources */,
 				84273D3126049DA600CE50E3 /* InfoLimitResponse.swift in Sources */,
+				84273D642609EFFD00CE50E3 /* TimeBorrowCollectionViewCell.swift in Sources */,
+				84273DC126118D5500CE50E3 /* BorrowTutorialViewController.swift in Sources */,
+				84273DFB26130B8A00CE50E3 /* ListWithdrawItemTableViewCell.swift in Sources */,
 				84273D142604881B00CE50E3 /* BorrowListTableViewCell.swift in Sources */,
 				84000F1F25FA176A00866863 /* ConstAPI.swift in Sources */,
 				8467E3EC25F75B7900B45E68 /* TermViewController.swift in Sources */,
+				84273DE9261306D800CE50E3 /* WithdrawViewController.swift in Sources */,
 				84273C9B260483B200CE50E3 /* ViewExtension.swift in Sources */,
+				84273DC62611BD9900CE50E3 /* BorrowConfirmResponse.swift in Sources */,
 				8467E40F25F7842D00B45E68 /* LoginResponse.swift in Sources */,
 				8467E40625F775BF00B45E68 /* Connect.swift in Sources */,
 				84000F6E25FDC56900866863 /* DepositViewController.swift in Sources */,
 				84000F7625FDCA2B00866863 /* DepositTutorialViewController.swift in Sources */,
+				84CD8F63262842A200E31D26 /* ScheduleList.swift in Sources */,
 				84000FAC25FF724C00866863 /* BalanceViewController.swift in Sources */,
 				840010C226019E7600866863 /* ActivityIndicatorPresenter.swift in Sources */,
+				84273DB3260F1CD500CE50E3 /* ListBorrowProcessItemTableViewCell.swift in Sources */,
 				84000F8E25FF67CA00866863 /* BankInfoResponse.swift in Sources */,
 				84273C962604827C00CE50E3 /* BorrowServices.swift in Sources */,
+				84CD8F6C2628448B00E31D26 /* ScheduleResponse.swift in Sources */,
+				84CD8E3B262482B400E31D26 /* WithdrawCreateViewController.swift in Sources */,
 				84273D1D26048B9500CE50E3 /* StringExtensions.swift in Sources */,
+				84273D9C260DC57A00CE50E3 /* BorowConfirmViewController.swift in Sources */,
 				840010D82601FC6900866863 /* UserDataService.swift in Sources */,
+				84273D4A2609A6CB00CE50E3 /* TypeBorrowCollectionViewCell.swift in Sources */,
 				8467E30B25F62C5900B45E68 /* ViewController.swift in Sources */,
+				84CD8F4926282BEC00E31D26 /* WithdrawRequest.swift in Sources */,
+				84273E0526140BB900CE50E3 /* ListWithdraw.swift in Sources */,
 				8400109A2600B83800866863 /* ListBankInfoCollectionViewCell.swift in Sources */,
+				84CD8F5926283A7500E31D26 /* ListScheduleTableViewCell.swift in Sources */,
+				84273D3C2609A3DF00CE50E3 /* BorrowCreateViewController.swift in Sources */,
+				84273D97260C2D2600CE50E3 /* BorrowingContractConfirmResponse.swift in Sources */,
 				840010B82600C26C00866863 /* ColorExtensions.swift in Sources */,
 				8467E41625F78AF800B45E68 /* HomeViewController.swift in Sources */,
 				8467E31125F62C5900B45E68 /* fiin_swift.xcdatamodeld in Sources */,
+				84273DCB2611C8B200CE50E3 /* BorrowDetailViewController.swift in Sources */,
+				84273DA8260DE58B00CE50E3 /* LoadingViewController.swift in Sources */,
 				84273D2726048FCC00CE50E3 /* InfoUser.swift in Sources */,
 				8467E30725F62C5900B45E68 /* AppDelegate.swift in Sources */,
+				84CD8F442627F96900E31D26 /* WithdrawInfo.swift in Sources */,
 				8467E37C25F63A0C00B45E68 /* LoginViewController.swift in Sources */,
 				84000F2725FA1A8800866863 /* ListSupportResponse.swift in Sources */,
 				840010E22602010400866863 /* index.swift in Sources */,
 				84000CDA25F9306E00866863 /* ListSupportTableViewCell.swift in Sources */,
 				84000CD325F92D8B00866863 /* SupportTicketViewController.swift in Sources */,
 				84273C8E260461C800CE50E3 /* ListBorrowResponse.swift in Sources */,
+				84273E0D26140C4600CE50E3 /* WithdrawResponse.swift in Sources */,
 				84000F2D25FA230800866863 /* CreateSupportTicketViewController.swift in Sources */,
 				8467E30925F62C5900B45E68 /* SceneDelegate.swift in Sources */,
 				840010D02601F9A100866863 /* BankInfoServices.swift in Sources */,
+				84273DD02611CB1000CE50E3 /* BorrowDetailResponse.swift in Sources */,
 				840010CB2601F29200866863 /* AuthenticationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

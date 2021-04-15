@@ -22,6 +22,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var buttonCreateAccountView: UIButton!
     let defaults = UserDefaults.standard
     var isShowPass : Bool = false
+    var alert = UIAlertController()
     
     // main
     override func viewDidLoad() {
@@ -70,19 +71,44 @@ class LoginViewController: UIViewController {
 //            buildAlertNotice(title: "Nhập mk bạn ơi")
 //        }
 //        dataAPI(phone: inputNumber.text!, pin: inputPassword.text!)
-        dataAPI(phone: "0946621237", pin: "666666aB")
+//        self.window = [[UIWindow, alloc], initWithFrame:[UIScreen mainScreen].bounds];
+        
+//        LoadingOverlay.shared.showOverlay(view: self.view)
+        openModal()
+//        LoadingViewController.showAlert()
+        dataAPI(phone: "0965403820", pin: "999999")
+        // 0946621237 - Ptuan123
     }
+    
+}
+
+// loading
+extension LoginViewController {
+    func openModal() {
+       print("button fire")
+       self.alert = UIAlertController(title: nil, message: "Please wait...", preferredStyle: .alert)
+       alert.view.tintColor = UIColor.black
+       let loadingIndicator: UIActivityIndicatorView = UIActivityIndicatorView(frame: CGRect(x: 10,y: 5,width: 50, height: 50)) as UIActivityIndicatorView
+       loadingIndicator.hidesWhenStopped = true
+       loadingIndicator.style = UIActivityIndicatorView.Style.gray
+       loadingIndicator.startAnimating();
+       alert.view.addSubview(loadingIndicator)
+       self.present(alert, animated: true)
+   }
+    func closeModal() {
+       alert.dismiss(animated: true, completion: nil)
+   }
 }
 
 // call api
 extension LoginViewController {
-    
     func dataAPI(phone : String,pin : String) {
         AuthenticationServices.login(
-            phone: "0946621237",
-            pin: "666666aB",
+            phone: phone,
+            pin: pin,
             success: {
                 [weak self] (res) in
+                self!.closeModal()
                     let storyboard = UIStoryboard(name: "Main", bundle: nil)
                             let mainTabBarController = storyboard.instantiateViewController(identifier: "MainTabBarController")
                             mainTabBarController.modalPresentationStyle = .fullScreen
@@ -92,6 +118,7 @@ extension LoginViewController {
             }
             , failure: {
                 [weak self] (message) in
+                self!.closeModal()
                 self!.buildAlertNotice(title: message)
             })
     }
@@ -109,5 +136,4 @@ extension LoginViewController {
         view.endEditing(true)
     }
 }
-
 

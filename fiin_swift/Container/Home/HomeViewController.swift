@@ -76,12 +76,23 @@ class HomeViewController: UIViewController,UICollectionViewDelegate,UICollection
         let onClickBorrow = UITapGestureRecognizer(target: self, action:  #selector(self.onClickBorrow))
         self.borrowView.addGestureRecognizer(onClickBorrow)
         
+        let onClickWithdraw = UITapGestureRecognizer(target: self, action:  #selector(self.onClickWithdraw))
+        self.withdraw.addGestureRecognizer(onClickWithdraw)
+        
+        
     }
     @objc func onClickBorrow(sender : UITapGestureRecognizer) {
         let vc = storyboard?.instantiateViewController(withIdentifier: "BorrowViewController") as?
             BorrowViewController
         self.navigationController?.pushViewController(vc!, animated: true)
     }
+    
+    @objc func onClickWithdraw(sender : UITapGestureRecognizer) {
+        let vc = storyboard?.instantiateViewController(withIdentifier: "WithdrawViewController") as?
+            WithdrawViewController
+        self.navigationController?.pushViewController(vc!, animated: true)
+    }
+    
     
     @objc func onClickDeposit(sender : UITapGestureRecognizer) {
         let vc = storyboard?.instantiateViewController(withIdentifier: "DepositViewController") as?
